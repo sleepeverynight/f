@@ -29,7 +29,8 @@
         text-decoration: none; color : black;
         line-height: 100px;
         margin-right: 30px;
-        font-size: 2vw;
+        font-size: 3vw;
+        
       }
       a{
                 margin-right: 10px;
@@ -50,8 +51,9 @@
   border: 1px solid orange;
   background-color: papayawhip;
   border-radius: 20px;
-  padding : 10px 10px 20px 10px;
-  max-width : 700px;
+  padding : 5px;
+  max-width : 60%;
+  max-height: 80%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -59,7 +61,8 @@
 .profile .yrb {
   text-align: center;
   font-family: 'Noto sans KR', sans-serif;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
+  line-height: 10px;
 }
 
 /*secret*/
