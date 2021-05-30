@@ -74,4 +74,13 @@
 #secret_wall h1{
       color:whitesmoke;
     }
-/**/    
+/*RYUKEE*/    
+#ryukee_title{
+  font-size: 48px;
+  font-family: sans-serif;
+}
+#jacket{
+  text-align: center;
+  margin-bottom: auto;
+  margin-top: auto;
+}
