@@ -22,15 +22,12 @@
       }
       .menu{
         text-align: left;
-        font-family: 'jua';
         margin-left: 50px;
       }
       .menu a{                                   /*메뉴 내비게이션바*/
         text-decoration: none; color : black;
         line-height: 100px;
         margin-right: 30px;
-        font-size: 6vmax;
-        
       }
       a{
                 margin-right: 10px;
