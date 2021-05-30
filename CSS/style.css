@@ -23,6 +23,7 @@
       .menu{
         text-align: left;
         margin-left: 50px;
+        max-width: 500px;
       }
       .menu a{                                   /*메뉴 내비게이션바*/
         text-decoration: none; color : black;
