@@ -15,7 +15,7 @@
       
       #wallpaper{
         display: block;
-        margin-top: 50px;
+        margin-top: 30px;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 50px;
@@ -38,6 +38,10 @@
       a{
                 margin-right: 10px;
        }
+      #main_banner{
+        margin-left:auto;
+        margin-right:auto;
+      }
       body{
         background-color: ivory;
       }
@@ -72,6 +76,7 @@
 /*secret*/
 #secret a{
   text-decoration: none; color: transparent;
+  font-size: 4px;
 }
 #secret{
   text-align: right;
