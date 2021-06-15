@@ -104,3 +104,25 @@
   text-align: center;
 }
 /**/
+#loginbg{
+  background-color: rgba(0, 0, 0, 0.918);
+}
+#login{
+  text-align: center;
+}
+#login input{
+  margin-top: 20px;
+  font-size : 2em;
+  width: 50%;
+  padding: 20px;
+}
+#submit{
+  margin-top: 30px;
+  padding: 15px;
+  width: 50%;
+  font-size: 2em;
+  border: 3px solid black;
+  border-radius: 5px;
+  color:white;
+  background-color: black;
+}

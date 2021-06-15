@@ -1,29 +1,31 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NOOJEY LIBRARY</title>
-    <meta charset="utf-8">
-    <link rel = "stylesheet" href='./CSS/style.css'>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TRY THIS</title>
+  <h1 style="font-family: Arial, Helvetica, sans-serif; font-size: 3vw;">FUCK YOU</h1>
+  <link rel ='stylesheet' href = '../CSS/style.css'>
+</head>
+<body id = 'loginbg'>
+  <div id = 'login'>
+  <input type = 'text' name ="id" id = '_id' placeholder="ID"><br>
+  <input type = 'password' name = 'password' id = 'pw' placeholder="PASSWORD"><br>
+  <button id = 'submit'>LOGIN</button>
+</div>
+  <script>
+    document.getElementById('submit').onclick = function(){
+      var ID = document.getElementById('_id').value;
+      var PW = document.getElementById('pw').value;
 
-  </head>
-
-  <body>
-    <h1>Cash Rules Everything Around Me<h1>
-    <div class = 'menu'>
-    <a href = 'intro/page1.html'><img src = 'img/info.png' max-width="100" height="75"></a>
-    <a href ="intro/2/page2.html"><img src = 'img/yrb.png' max-width="100" height="75"></a>
-    <a href ="intro/2/ryukee.html"><img src = 'img/ryukee.png' max-width="100" height="75"></a>
-    </div>
-    
-    <div id = "secret"><a href ="intro/2/secret.html">secret</a></div>
-
-    <p id = 'wallpaper'><img src = "img/dasasd.jpg" width = "350" height="500"></p>
-    <div id = 'main_banner'>
-    <a href = 'https://youtube.com'
-    target="_blank"><img src = 'img/youtube.png' height="80px" width="80px"></a>
-    <a href ='https://finance.naver.com/item/main.nhn?code=044340' target="blank"><img src ='img/winix.png'height='80px' width = '80px'></a>
-    </div>  
-  </body>
+      if(ID === '123' && PW === 'rhemfahr'){
+        window.location.href = 'https://noojey.github.io/f/index.html';
+      }
+      else{
+        alert('failed');
+      }
+    }
+  </script>
+</body>
 </html>
