@@ -41,7 +41,7 @@
         margin-right:auto;
       }
       body{
-        background-color: ivory;
+        background-color: rgba(152, 32, 233, 0.712);
       }
 /*백예린 페이지*/
 #yrb-comment{
@@ -88,6 +88,9 @@
 #secret_wall h1{
       color:whitesmoke;
     }
+#jmback{
+  margin-left: 30px;
+}
 /*RYUKEE*/    
 #ryukee_title{
   font-size: 48px;
@@ -104,6 +107,7 @@
   text-align: center;
 }
 /**/
+/*로그인 창*/
 #loginbg{
   background-color: rgba(0, 0, 0, 0.918);
 }
@@ -126,3 +130,5 @@
   color:white;
   background-color: black;
 }
+/**/
+
