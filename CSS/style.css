@@ -2,15 +2,15 @@
   src: url("../fonts/BMJUA_ttf.ttf");
   font-family: "jua";
 }
-.HOME{
- text-align: left;
 
-}
 /*홈페이지*/
-      h1{
-        font-size: 32px;
+      #cream{
+        font-size: 40px;
         text-align: center;
-        font-family: Impact;
+        font-weight: bold;
+        font-family: Helvetica;
+        margin-bottom: 60px;
+        color:gold
       }
       
       #wallpaper{
@@ -20,25 +20,16 @@
         margin-right: auto;
         margin-bottom: 50px;
       }
-      .menu{
-        text-align: left;
-        margin-left: 30px;
-        max-width: 1000px;
+      .nav-link{
+        font-family: Helvetica;
+        font-weight: bold;
+        font-size: 3vw;
       }
-      .menu a{                                   /*메뉴 내비게이션바*/
-        line-height: 100px;
-        margin-right: 10px;
-        max-width:90%;
-        }
-
-      .menu a img{
-        max-width: 20vw;
-        max-height: 75px;
+      .navbar{
+        border: 5px solid whitesmoke;
       }
-    
-      #main_banner{
-        margin-left:auto;
-        margin-right:auto;
+      .main_banner{
+        text-align: center;
       }
       body{
         background-color: rgba(152, 32, 233, 0.712);
@@ -58,19 +49,19 @@
   border: 1px solid orange;
   background-color: papayawhip;
   border-radius: 20px;
-  padding : 5px;
+  padding : 10px;
   max-width : 50vh;
   max-height: 80%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   box-shadow: 10px 10px 25px 1px green;
+  margin-top: 30px;
 }
-.profile .yrb {
+.profile h1{
   text-align: center;
   font-family: 'Noto sans KR', sans-serif;
   margin-bottom: 25px;
-  line-height: 10px;
 }
 
 /*secret*/
@@ -93,6 +84,7 @@
 }
 /*RYUKEE*/    
 #ryukee_title{
+  text-align: center;
   font-size: 48px;
   font-family: sans-serif;
 }
