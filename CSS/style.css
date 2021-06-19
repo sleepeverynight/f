@@ -65,14 +65,14 @@
 }
 
 /*secret*/
-#secret a{
-  text-decoration: none; color: transparent;
-  font-size: 4px;
+#gate{
+  margin-top: 30px;
+ text-align: right;
+ margin-right: 15px;
 }
-#secret{
-  text-align: right;
+#_secret{
+  text-align: center;
 }
-
 #secret_wall{
       background-color: rgb(61, 60, 60);
     }
@@ -90,13 +90,20 @@
 }
 
 .tracks{
-  margin-top: 20px;
   text-align: center;
 }
 
 .jacket{
   margin-top: 30px;
   text-align: center;
+}
+.song a{
+  text-align: center;
+  line-height: 54px;
+  vertical-align: top;
+  margin-right: 20px;
+  font-size: 16px;
+  font-family: Helvetica;
 }
 /**/
 /*로그인 창*/
