@@ -38,8 +38,22 @@
           </div>
         </div>
       </nav>
-    <div id = "secret"><a href ="intro/2/secret.html">secret</a></div>
+    <div id = 'gate'>
+    <input type="text" name = 'secret' id ='_secret' placeholder="Search My Name">
+    <button id = 'tosecret'>Search</button>
+    </div>
+    <script>
+      document.getElementById('tosecret').onclick = function(){
+        var guess = document.getElementById('_secret').value;
 
+        if(guess == 'iknow'){
+          window.location.href ='https://noojey.github.io/f/intro/2/secret.html';
+        }
+        else{
+          alert('failed');
+        }
+      }
+    </script>
     <img id ='wallpaper' src = "img/dasasd.jpg" width = "350" height="500">
     
     <div class = 'main_banner'>
