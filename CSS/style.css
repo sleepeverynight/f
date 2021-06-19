@@ -34,6 +34,10 @@
       body{
         background-color: rgba(152, 32, 233, 0.712);
       }
+      #todays a{
+        font-size: 20px;
+        vertical-align: middle;
+      }
 /*백예린 페이지*/
 #yrb-comment{
   margin-top: 15px;
