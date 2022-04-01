@@ -42,7 +42,7 @@
         </div>
       </nav>
     <div id = 'gate'>
-    <input type="text" name = 'secret' id ='_secret' placeholder="Search My Name">
+    <input type="text" name = 'secret' onkeyup="enterkey()" id ='_secret' placeholder="Search My Name">
     <button id = 'tosecret'>Search</button>
     </div>
     <script>
@@ -55,7 +55,22 @@
         else{
           alert('failed');
         }
+
       }
+
+      function enterkey(){
+        var guess = document.getElementById('_secret').value;
+        if(window.event.keyCode == 13){
+          if(guess == 'iknow'){
+              window.location.href ='https://noojey.github.io/f/intro/2/secret.html';
+          }
+          else{
+              alert('failed');
+              }
+
+        }
+      }
+      
     </script>
     <img id ='wallpaper' src = "img/dasasd.jpg" width = "350" height="500">
     
