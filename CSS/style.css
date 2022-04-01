@@ -155,26 +155,6 @@
 
 /* Global Typography */
 
-h1 {
-  font-size: 3rem;
-}
-
-h2 {
-  font-size: 2rem;
-}
-
-h3 {
-  font-size: 1.5rem;
-}
-
-p {
-  font-size: 1rem;
-}
-
-form,
-textarea {
-  font-size: 1rem;
-}
 
 .dButton {
   display: block;
@@ -212,17 +192,7 @@ header {
 
 /* Button Standard */
 
-.btn-main,
-.btn-light,
-.btn-dark {
-  display: block;
-  padding: 0.6rem 2rem;
-  margin: 1rem;
-  transition: all 0.1s;
-  border: none;
-  border-radius: 2px;
-  cursor: pointer;
-}
+
 
 .btn-main {
   color: lightgoldenrodyellow;
@@ -245,7 +215,6 @@ input[class^='btn-']:hover {
   background-color: lightgoldenrodyellow;
   color: lightcoral;
   font-weight: 700;
-  transform: scale(1.08);
 }
 
 /* Project Starts Here */
