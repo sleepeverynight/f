@@ -10,10 +10,10 @@
 </head>
 <body id = 'loginbg'>
   <div id = 'login'>
-  <input type = 'text' name ="id" id = '_id' placeholder="ID"><br>
-  <input type = 'password' name = 'password' id = 'pw' placeholder="PASSWORD"><br>
+  <input type = 'text' name ="id" onkeyup="enterkey()" id = '_id'  placeholder="ID">
+  <input type = 'password' name = 'password' onkeyup="enterkey()" id = 'pw' placeholder="PASSWORD">
   <button id = 'submit'>LOGIN</button>
-</div>
+  </div>
   <script>
     document.getElementById('submit').onclick = function(){
       var ID = document.getElementById('_id').value;
@@ -25,6 +25,19 @@
         alert('failed');
       }
     }
+    function enterkey(){
+      var ID = document.getElementById('_id').value;
+      var PW = document.getElementById('pw').value;
+      if(window.event.keyCode == 13){
+        if(ID === 'mfkr' && PW === 'rhemfahr'){
+          window.location.href = 'https://noojey.github.io/f/hub.html';
+        }
+        else{
+          alert('failed');
+        }
+      }
+    }
+    
   </script>
 </body>
 </html>

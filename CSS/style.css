@@ -137,6 +137,11 @@
 #love{
   background-color: pink;
 }
+#girlILike{
+  width: 100%;
+  height: auto;
+}
+
 .symbol{
   font-size: 24px;
   text-decoration: none;
